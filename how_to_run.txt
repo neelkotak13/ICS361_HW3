@@ -1,0 +1,10 @@
+;below are examples of how to run the program, change the individual global variables to change inputs
+
+(load "HW3.lisp")
+(a-star-search *farmer-start* *farmer-goal* *farmer-moves*)
+(a-star-search *jug-start* *jug-goal* *jug-moves*)
+(a-star-search *8puzzle-easy* *8puzzle-goal* *8puzzle-moves-default*)
+(a-star-search *8puzzle-hard* *8puzzle-goal* *8puzzle-moves-default*)
+(a-star-search *8puzzle-impossible* *8puzzle-goal* *8puzzle-moves-default*)
+(a-star-search *8puzzle-easy* *8puzzle-goal* *8puzzle-man-dist-moves*)
+(a-star-search *8puzzle-easy* *8puzzle-goal* *8puzzle-custom-moves*)
